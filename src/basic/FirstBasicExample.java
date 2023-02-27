@@ -20,7 +20,8 @@ public class FirstBasicExample {
         try {
             int c = a/b;
             System.out.println("Division is "+c);
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             e.printStackTrace();
         }
     }
